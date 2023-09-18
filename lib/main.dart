@@ -1,4 +1,4 @@
-import 'package:disaster_management/screens/maps_screen.dart';
+import 'package:disaster_management/screens/login_screen_user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MapSample(),
+      home: LoginScreen(),
     );
   }
 }
