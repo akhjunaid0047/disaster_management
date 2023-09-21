@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const MapSample(),
+                          builder: (context) => MapSample(),
                         ));
                   },
                   child: Text('MAPS'),
