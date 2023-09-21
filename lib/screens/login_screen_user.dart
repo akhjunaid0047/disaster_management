@@ -1,4 +1,5 @@
 import 'package:disaster_management/screens/signup_screen_user.dart';
+import 'package:disaster_management/screens/user_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:disaster_management/resources/header.dart';
 import 'package:disaster_management/resources/logo.dart';
@@ -81,6 +82,13 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(height: 40),
             InkWell(
               onTap: () {},
+              onLongPress: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const UserPage(),
+                    ));
+              },
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 130),
                 child: Container(

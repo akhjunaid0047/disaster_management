@@ -73,9 +73,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   child: const Text(
                     'As Agency',
                     style: TextStyle(
-                      color: Color.fromARGB(
-                          255, 19, 41, 61), // Set the color of the text
-                      fontSize: 20, // Set the font size
+                      color: Color.fromARGB(255, 19, 41, 61),
+                      fontSize: 20,
                     ),
                   ),
                 ),
