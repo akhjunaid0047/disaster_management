@@ -1,4 +1,3 @@
-import 'package:disaster_management/resources/auth_methods.dart';
 import 'package:disaster_management/screens/login_screen_user.dart';
 import 'package:disaster_management/screens/signup_screen_agency.dart';
 import 'package:flutter/material.dart';
@@ -154,13 +153,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             ),
             const SizedBox(height: 40),
             InkWell(
-              onTap: () async {
-                String res = await AuthMethods().signUpUser(
-                    email: _emailController.text,
-                    password: _passwordController.text,
-                    username: _nameController.text,
-                    number: _numberController.text);
-              },
+              onTap: () {},
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 130),
                 child: Container(
